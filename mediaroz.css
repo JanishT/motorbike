@@ -1,0 +1,94 @@
+@media (max-width:500px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        padding-top: 30px;
+    }
+    .alllogo{
+        background-color: black;
+        width: 900px;
+    }
+    .allbutton{
+        /* display: none; */
+        width: 900px;
+        padding-top: 30px;
+    }
+    .yard{
+        width: 900px;
+        /* padding-top: 20px; */
+    }
+    .headwithimg{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        justify-content: center;
+        align-items: center;
+    }
+    .stocks{
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        height: 430vh;
+        justify-content: space-around;
+    }
+    .bikeraw{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        height: 200vh;
+    }
+    .bikeimg{
+        width: 500px;
+        height: 280px;
+        
+    }
+    .nameboard{
+        width: 500px;
+    }
+    .single:hover{
+        transform: scale(1.2);
+        transition: 1.8s;
+
+    }
+    .comments{
+        /* background-color: rgb(136, 89, 29); */
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        height: 200vh;
+    }
+    .comment{
+        width: 700px;
+        height: 200px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .star{
+        width: 900px;
+    }
+   .foot{
+    width: 900px;
+   }
+    .leftnav{
+        display: flex;
+        justify-content: center;
+        height: 150px;
+        /* background-color: blue; */
+    }
+    .lorem{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 900px;
+    }
+  
+    
+}
